@@ -36,6 +36,36 @@
   gap: 2rem;
 }
 
-.header__hero {
-  display: inline-block;
+.header__col-2-of-3 {
+  width: auto;
+}
+
+@media screen and (max-width: 768px) {
+  .header__row {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 8rem 0 15rem;
+    gap: 8.8rem;
+  }
+  /* 
+  .header__col {
+    justify-self: center;
+  } */
+  .header__col-1-of-3 {
+    width: 90%;
+    justify-self: center;
+  }
+  .header__col img {
+    display: inline-block;
+    width: 100%;
+  }
+
+  .header__col-2-of-3 {
+    justify-self: center;
+    width: 60%;
+  }
+
+  .header__col-3-of-3 {
+    display: none;
+  }
 }

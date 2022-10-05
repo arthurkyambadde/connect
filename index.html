@@ -45,11 +45,20 @@
 
       <div class="header__row">
         <div class="header__col header__col-1-of-3">
-          <img
-            src="assets/desktop/image-hero-left.png"
-            alt="left hero image"
-            class="header__hero header__hero-left"
-          />
+          <picture>
+            <source
+              srcset="assets/tablet/image-hero.png"
+              media="(max-width: 768px)"
+            />
+            <source
+              srcset="assets/desktop/image-hero-left.png"
+              media="(max-width: 1200px)"
+            />
+            <img
+              src="assets/desktop/image-hero-left.png"
+              alt="Header hero image"
+            />
+          </picture>
         </div>
 
         <div class="header__col header__col-2-of-3">
@@ -66,7 +75,7 @@
           </div>
         </div>
 
-        <div class="header__col header__col-1-of-3">
+        <div class="header__col header__col-3-of-3">
           <img
             src="assets/desktop/image-hero-right.png"
             alt="right hero image"
@@ -76,7 +85,7 @@
       </div>
     </header>
 
-    01
+    <span class="section-divider">01</span>
 
     <main>
       <section class="gallery__section">
@@ -123,7 +132,7 @@
       </section>
     </main>
 
-    02
+    <span class="section-divider">02</span>
 
     <footer class="footer">
       <h2 class="footer__heading">Experience more together</h2>
