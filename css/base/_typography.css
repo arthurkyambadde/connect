@@ -31,3 +31,35 @@ body {
   text-align: center;
   color: #87879d;
 }
+
+/*Gallery Section typography*/
+
+.gallery__heading--main {
+  display: block;
+  margin-bottom: 1.6rem;
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #4d96a9;
+}
+
+.gallery__heading--sub {
+  margin-bottom: 3.2rem;
+  display: block;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 44px;
+  text-align: center;
+  color: #28283d;
+}
+
+.gallery__paragraph {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 26px;
+  text-align: center;
+  color: #87879d;
+}

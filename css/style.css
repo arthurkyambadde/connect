@@ -6,6 +6,8 @@
 
 /*Componets*/
 @import url("components/_btn.css");
+@import url("components/_line-break.css");
 
 /*Layout*/
 @import url("layout/_header.css");
+@import url("layout/_gallery.css");
