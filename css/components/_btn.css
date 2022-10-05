@@ -1,0 +1,18 @@
+/*Button component styles*/
+
+.btn {
+  border: none;
+  background-color: transparent;
+  outline: none;
+  cursor: pointer;
+  padding: 12px 14px;
+  border-radius: 2.9rem;
+}
+
+.btn_primary {
+  background: #4d96a9;
+}
+
+.btn_secondary {
+  background: #855fb1;
+}
