@@ -1,0 +1,15 @@
+/*Header Section Layout*/
+
+.header__logo-box {
+  max-width: 100%;
+  height: auto;
+  text-align: center;
+}
+
+.header__row {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, calc((100% - 2 * 8.8rem) / 3));
+  gap: 8.8rem;
+}

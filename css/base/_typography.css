@@ -1,0 +1,19 @@
+/* Page Typography */
+
+/*Base Typo*/
+body {
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 1.4;
+  color: #777;
+}
+
+/*Header Typography*/
+.header__title {
+  font-weight: 900;
+  font-size: 6.4rem;
+  line-height: 64px;
+  text-align: center;
+  color: #28283d;
+}
