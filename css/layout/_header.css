@@ -40,6 +40,10 @@
   width: auto;
 }
 
+.header__line {
+  transform: translate(0, -25px);
+}
+
 @media screen and (max-width: 768px) {
   .header__row {
     display: grid;

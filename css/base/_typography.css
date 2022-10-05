@@ -63,3 +63,21 @@ body {
   text-align: center;
   color: #87879d;
 }
+
+/*Footer Typography*/
+
+.footer__heading {
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 44px;
+  color: #fafafa;
+  width: 33%;
+}
+
+.footer__text {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 26px;
+  color: #fafafa;
+  width: 30%;
+}
