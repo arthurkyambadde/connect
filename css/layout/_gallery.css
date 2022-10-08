@@ -34,3 +34,14 @@
 .gallery__line {
   transform: translate(0, 145px);
 }
+
+@media screen and (max-width: 768px) {
+  .gallery__section {
+    padding: 0 4rem 12rem;
+  }
+
+  .gallery__image {
+    max-width: calc(100% - ((2 * 4rem) + (3 * 3rem)));
+    height: auto;
+  }
+}
