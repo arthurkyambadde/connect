@@ -9,6 +9,11 @@
   border-radius: 2.9rem;
 }
 
+.btn:hover {
+  transition: ease-out 0.3s;
+  opacity: 70%;
+}
+
 .btn_primary {
   background: var(--color-primary);
 }
