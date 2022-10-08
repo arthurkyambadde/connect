@@ -38,8 +38,8 @@ body {
   display: block;
   margin-bottom: 1.6rem;
   font-weight: 900;
-  font-size: 16px;
-  line-height: 26px;
+  font-size: 1.6rem;
+  line-height: 1.6;
   letter-spacing: 4px;
   text-transform: uppercase;
   text-align: center;
@@ -50,16 +50,16 @@ body {
   margin-bottom: 3.2rem;
   display: block;
   font-weight: 900;
-  font-size: 40px;
-  line-height: 44px;
+  font-size: 4rem;
+  line-height: 1.4;
   text-align: center;
   color: #28283d;
 }
 
 .gallery__paragraph {
   font-weight: 500;
-  font-size: 18px;
-  line-height: 26px;
+  font-size: 1.8rem;
+  line-height: 1.6;
   text-align: center;
   color: #87879d;
 }
@@ -68,16 +68,16 @@ body {
 
 .footer__heading {
   font-weight: 900;
-  font-size: 40px;
-  line-height: 44px;
+  font-size: 4rem;
+  line-height: 1.4;
   color: #fafafa;
   width: 33%;
 }
 
 .footer__text {
   font-weight: 500;
-  font-size: 18px;
-  line-height: 26px;
+  font-size: 1.8rem;
+  line-height: 1.6;
   color: #fafafa;
   width: 30%;
 }
@@ -93,7 +93,7 @@ body {
   }
 
   .footer__text {
-    font-size: 16px;
+    font-size: 1.6rem;
     line-height: 1.6;
     width: 100%;
   }
@@ -108,13 +108,31 @@ body {
     font-size: 1.6rem;
   }
 
+  .gallery__heading--sub {
+    margin-bottom: 2.2rem;
+    display: block;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 1.4;
+    text-align: center;
+    color: #28283d;
+  }
+
+  .gallery__paragraph {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.6;
+    text-align: center;
+    color: #87879d;
+  }
+
   .footer__heading {
-    font-size: 28px;
+    font-size: 2.8rem;
     width: 90%;
   }
 
   .footer__text {
-    font-size: 15px;
+    font-size: 1.5rem;
     line-height: 1.6;
     width: 90%;
   }
