@@ -74,3 +74,19 @@
     display: none;
   }
 }
+
+@media screen and (max-width: 425px) {
+  .header__row {
+    padding: 5.4rem 0 15rem;
+    gap: 4.8rem;
+  }
+  .header__col-1-of-3 {
+    text-align: center;
+  }
+  .header__btn-wrapper {
+    flex-direction: column;
+  }
+  .header__line {
+    transform: translate(-20px, -20px);
+  }
+}
