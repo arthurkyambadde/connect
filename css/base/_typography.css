@@ -86,4 +86,15 @@ body {
   .header__title {
     font-size: 4.6rem;
   }
+
+  .footer__heading {
+    font-size: 38px;
+    width: 100%;
+  }
+
+  .footer__text {
+    font-size: 16px;
+    line-height: 1.6;
+    width: 100%;
+  }
 }
