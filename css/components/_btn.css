@@ -10,9 +10,9 @@
 }
 
 .btn_primary {
-  background: #4d96a9;
+  background: var(--color-primary);
 }
 
 .btn_secondary {
-  background: #855fb1;
+  background: var(--color-secondary);
 }

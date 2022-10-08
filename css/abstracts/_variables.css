@@ -1,0 +1,17 @@
+/*Project Variables*/
+
+:root {
+  /*Colors*/
+  --color-text-dark: #28283d;
+  --color-text-light: #87879d;
+  --color-white: #fff;
+  --color-grey-light: #fafafa;
+  --color-primary: #4d96a9;
+  --color-secondary: #855fb1;
+
+  /*Gradients*/
+  --footer-gradient: linear-gradient(
+    rgb(65, 142, 161),
+    rgba(77, 150, 168, 0.855)
+  );
+}
