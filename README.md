@@ -26,8 +26,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Meet landing page challenge on Frontend Mentor](https://your-solution-url.com)
+- Live Site URL: [Meet landing page challenge #Live site ](https://meet-landing-page-murex.vercel.app/)
 
 ## My process
 
